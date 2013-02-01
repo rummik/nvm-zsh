@@ -5,4 +5,4 @@ if [[ ! -e ~/.nvm ]]; then
 	cp ${0:h}/nvm/nvm.sh ~/.nvm
 fi
 
-. ~/.nvm/nvm.sh
+emulate zsh -c '. ~/.nvm/nvm.sh'
