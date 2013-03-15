@@ -4,6 +4,7 @@ Installation
 mkdir -p ~ZSH_CUSTOM/plugins
 cd ~ZSH_CUSTOM/plugins
 git clone git://github.com/rummik/nvm-zsh.git
+cd nvm-zsh
 git submodule update --init
 ```
 
